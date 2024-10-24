@@ -1,0 +1,439 @@
+/* universal padding margin and font family */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* this class work on drop down menu to hover and background color transparent */
+.ho:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+
+}
+
+/* margin top 40px work on different places  */
+.m {
+  margin-top: 40px;
+}
+
+/* nav bar black color "bg" class */
+.bg {
+  background-color: black !important;
+
+}
+
+/* working on home page video*/
+#output {
+  white-space: pre-line;
+
+}
+
+#output.img-text {
+  color: #dedeff;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 28px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* nav bar toogler icon color */
+.barcol {
+  background-color: #ffb223;
+}
+
+/* working on the first image of the hazard page */
+#outp {
+  white-space: pre-line;
+  color: #020385;
+
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+/* work on different places  */
+
+.card-title {
+  color: #020202;
+}
+/* work on different places  */
+
+.card-text {
+  color: #030303;
+}
+
+
+.carr {
+  overflow: hidden;
+  position: relative;
+}
+/* hover image zoom 1.1 */
+.carr:hover .img-fluid {
+  transform: scale(1.1);
+}
+
+.img-fluid {
+  transition: transform 0.6s ease;
+}
+
+/* Work on home page Mountaineers Legends of the Peaks */
+.top3 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.top3 h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.top3-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.top3-col img {
+  width: 100%;
+  height: 100%;
+  /* height: 100%; */
+  display: block;
+
+}
+
+
+/* hover one image show background color layer and text */
+.layer:hover {
+  background: rgba(22, 22, 22, 0.7);
+  cursor: pointer;
+
+}
+
+/* layer adjust */
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 94%;
+  position: absolute;
+  top: 0;
+  left: 3%;
+  transition: 0.5s;
+}
+
+/* adjust text  */
+
+.layer1 .mar1 {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 34%;
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+/* adjust text  */
+
+.layer2 .mar2 {
+  width: 100%;
+
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 21%;
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+/* adjust text  */
+
+.layer3 .mar3 {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 30%;
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
+}
+
+/* row direction on max-width:768px column  */
+
+@media (max-width:768px) {
+  .row {
+    flex-direction: column;
+  }
+
+/*adjust on max-width:768px */
+
+  .layer {
+    background: transparent;
+    height: 100%;
+    width: 95%;
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+  }
+/*adjust on max-width:768px */
+
+  .layer1 .mar1 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 33%;
+
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+  }
+/*adjust on max-width:768px */
+
+  .layer2 .mar2 {
+    width: 100%;
+
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 25%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+  }
+/*adjust on max-width:768px */
+
+  .layer3 .mar3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 30%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+  }
+}
+
+/* navbar active link color */
+link.active,
+.navbar-nav .nav-link.show {
+  color: #f0ad4e;
+}
+
+.nav-link {
+  flex: 1;
+  text-align: left;
+}
+
+.nav-link ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 4px 15px;
+  position: relative;
+}
+
+.nav-link ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+/* nav bar hover color*/
+.nav-link ul li :hover {
+  color: #f0ad4e;
+}
+
+/* nav bar hover after line color*/
+
+.nav-link ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f0ad4e;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+
+}
+
+.nav-link ul li:hover::after {
+  width: 100%;
+}
+
+
+.text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.card-img-top {
+  transition: transform 0.6s ease;
+}
+
+/* hover image zoom 1.1 */
+
+.car:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+
+/* hover on sheltering page image zoom 1.1 */
+
+.shelter {
+  transition: transform 0.5s ease;
+}
+
+.shelter:hover {
+  transform: scale(1.1);
+}
+/* fade in transition use different places */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 2s ease, transform 0.6s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* fade transition use different places */
+
+.fade {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+.fade.show {
+  opacity: 1;
+}
+
+/* slide up transition use different places */
+
+.slide-up {
+  opacity: 0;
+  transform: translateY(150px);
+  transition: opacity 2s ease, transform 4s ease;
+}
+
+.slide-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*slide down transition use different places */
+
+.slide-down {
+  opacity: 0;
+  transform: translateY(-150px);
+  transition: opacity 2s ease, transform 4s ease;
+}
+
+.slide-down.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* slide left to right transition use different places */
+
+.slide-in-text {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 2s, transform 2s;
+}
+
+.slide-in-text.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+/* hover box shadow */
+
+#everest-card:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+  transition: box-shadow 0.3s ease;
+
+}
+
+
+/* use on home page historic ascent*/
+.ascentss {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.ascentss h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+
+.ascentsS-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.ascentsS-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.ascentsS-col p {
+  font-size: 18px;
+  font-family: Georgia, Times New Roman, Times, serif;
+  padding: 0;
+}
+
+p {
+  font-size: 20px;
+  font-family: Georgia, Times New Roman, Times, serif;
+  padding: 0;
+}
+
+.ascentsS-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* text select  */
+::selection {
+  background-color: #ffb223;
+  color: black;
+
+}

@@ -1,0 +1,61 @@
+
+/*Working on the first image of the Hazard page */
+
+#hazard {
+    white-space: pre-line;
+
+  }
+
+  #hazard.img-text {
+    color: #dedeff;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+/*Working on explore button history page */
+
+  .historyh {
+    color: white;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    font-size: medium;
+    transition: all 0.3s;
+    height: 50px;
+  }
+
+/*Working on explore button history page hover color #ffb223 */
+
+  .historyh:hover {
+
+    color: black;
+    background-color: #ffb223;
+    position: relative;
+    overflow: hidden;
+    font-size: large;
+    height: 50px;
+  }
+
+
+  .historyh::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, #000 5%, transparent);
+    transition: left 0.7s ease;
+  }
+
+/*Working on explore button history page hover gradient transition  */
+ 
+  .historyh:hover::before {
+    left: 100%;
+    background: linear-gradient(to right, transparent, #fff 5%, transparent);
+  }
